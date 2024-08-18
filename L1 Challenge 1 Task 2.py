@@ -1,4 +1,4 @@
-name = input("What is your name? ")
+name = input("What is your name? ").capitalize()
 if name == "Alice" or name == "Bob":
     print("Hello " + name)
 else:
